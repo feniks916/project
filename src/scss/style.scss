@@ -1,17 +1,22 @@
-$bgColor: #24292e;
-$text: #fff;
+@import 'normalize';
+@import 'font-awesome.min';
+@import 'fonts';
 
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
+$bgColor: #F8F8F8;;
+$text: #37383c;
+$white: #fff;
+$pink: #fe3e79;
+$border:#d9fff4;
+$butBorder: #b8ffec;
+$gradient: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+$font-slim: 'TT_Lakes_Regular', sans-serif;
+$font-semi: 'TT Lakes Medium', sans-serif;
+$font-fat: 'TT Lakes Bold', sans-serif;
+@import '1440';
+@import '768';
+@import '320';
 
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
+
+.aside_open{
+  display: block;
 }
